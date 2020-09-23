@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="getCategory(failed)">
+    <classes>
+      <class name="testInterface.test_V1.getCategory_V1">
+        <methods>
+          <include name="login" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testInterface.test_V1.getCategory_V1 -->
+    </classes>
+  </test> <!-- getCategory(failed) -->
+</suite> <!-- Failed suite [Suite] -->

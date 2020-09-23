@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3609" started-at="2020-09-08T01:34:10Z" finished-at="2020-09-08T01:34:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3609" started-at="2020-09-08T01:34:10Z" finished-at="2020-09-08T01:34:14Z">
+      <class name="testInterface.cases.getCategoryCase">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testInterface.cases.getCategoryCase@59fa1d9b]" name="test" duration-ms="2786" started-at="2020-09-08T01:34:11Z" data-provider="datas" finished-at="2020-09-08T01:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"pageNum":"1","pageSize":"10","name":"55"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testInterface.cases.getCategoryCase@59fa1d9b]" name="test" duration-ms="88" started-at="2020-09-08T01:34:13Z" data-provider="datas" finished-at="2020-09-08T01:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"pageNum":"1","pageSize":"10","name":""}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testInterface.cases.getCategoryCase@59fa1d9b]" name="test" duration-ms="99" started-at="2020-09-08T01:34:14Z" data-provider="datas" finished-at="2020-09-08T01:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"pageNum":"","pageSize":"","name":"55"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="writeBackDatas()[pri:0, instance:testInterface.cases.getCategoryCase@59fa1d9b]" name="writeBackDatas" is-config="true" duration-ms="200" started-at="2020-09-08T01:34:14Z" finished-at="2020-09-08T01:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeBackDatas -->
+      </class> <!-- testInterface.cases.getCategoryCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

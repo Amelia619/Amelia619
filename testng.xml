@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="testInterface.cases.loginCase"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test thread-count="5" name="getCategory">
+    <classes>
+      <class name="testInterface.cases.getCategoryCase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="addCategory">
+    <classes>
+      <class name="testInterface.cases.addCategoryCase"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
